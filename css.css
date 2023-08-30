@@ -11,22 +11,23 @@ header{
 section{
     background-color: green;
     overflow: hidden;
+    display: flex;
+    /*flex-direction: row-reverse;*/
 }
 
 nav{
     background-color: beige;
     width: 25%;
-    float: left;
 }
 
 article{
     background-color: aquamarine;
     width: 75%;
-    float: left;
     height: 80px;
 }
 
 footer{
+    /*clear:both*/
     background-color: pink;
     height: 120px;    
 }
